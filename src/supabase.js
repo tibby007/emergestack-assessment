@@ -19,7 +19,7 @@ export async function saveAssessmentResponse(respondentInfo, responses) {
         submitted_at: new Date().toISOString()
       }
     ])
-    .select()
+    .select
   
   if (error) {
     console.error('Error saving response:', error)
